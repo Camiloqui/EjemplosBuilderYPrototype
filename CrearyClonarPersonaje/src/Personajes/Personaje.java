@@ -42,8 +42,8 @@ public Personaje clone(){
        return clonedPersonaje;
 }
      public String HolaPersoanje() {
-        return "hi i am a " + getClase() + " and i have " + getNivel()
-                + " legs";
+        return "Soy un " + getClase() + " y Tengo una experencia de nivel:  " + getNivel()
+                + ". A por la victoria!!!";
     }  
     
 }
